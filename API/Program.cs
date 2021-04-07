@@ -18,7 +18,7 @@ namespace API
         {
           var host =  CreateHostBuilder(args).Build();
           using var scope = host.Services.CreateScope();
-          var services = scope.ServiceProvider; 
+          var services = scope.ServiceProvider;
  
           try
           {
